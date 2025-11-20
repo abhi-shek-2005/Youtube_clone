@@ -1,0 +1,24 @@
+
+.recommended {
+    flex-basis: 30%; /* Sets the width basis for the recommended section, leaving space next to the play video component */
+}
+
+.side-video-list {
+    display: flex; /* Aligns content (thumbnail and info) horizontally */
+    justify-content: space-between; /* Creates space between the thumbnail and the video information */
+    margin-bottom: 8px; /* Adds margin below each video listing */
+}
+
+.side-video-list img {
+    flex-basis: 49%; /* Sets the width basis for the image */
+    width: 50%; /* Sets the width of the image */
+}
+
+.vid-info {
+    flex-basis: 49%; /* Sets the width basis for the video information */
+}
+
+.vid-info h4 {
+    font-size: 13px; /* Sets the font size for the video title */
+    margin-bottom: 5px; /* Adds margin below the video title */
+}
