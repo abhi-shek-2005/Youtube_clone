@@ -117,7 +117,7 @@ const PlayVideo = () => {
           return (
             <div key={index} className="comment">
               <img
-                src= {item?.snippet?.topLevelComment?.snippet?.authorProfileImageUrl || "User"}
+                src= {item.snippet.topLevelComment.snippet.authorProfileImageUrl}
                 alt=""
               />
               <div>
@@ -125,11 +125,11 @@ const PlayVideo = () => {
                   {item.snippet.topLevelComment.snippet.authorDisplayName}
                   <span>1 day ago</span>
                 </h3>
-                <p>{item?.snippet?.topLevelComment?.snippet?.textDisplay || ""}</p>
+                <p>{item.snippet.topLevelComment.snippet.textDisplay}</p>
                 <div className="comment-action">
                   <img src={like} alt="" />
                   <span>
-                    {value_converter(item?.snippet?.topLevelComment?.snippet?.likeCount || 0)}
+                    {value_converter(item.snippet.topLevelComment.snippet.likeCount)}
                   </span>
                   <img src={dislike} alt="" />
                 </div>
