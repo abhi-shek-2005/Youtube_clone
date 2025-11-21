@@ -117,7 +117,7 @@ const PlayVideo = () => {
           return (
             <div key={index} className="comment">
               <img
-                src= {item?.snippet?.topLevelComment?.snippet?.authorDisplayName || "User"}
+                src= {item?.snippet?.topLevelComment?.snippet?.authorProfileImageUrl || "User"}
                 alt=""
               />
               <div>
