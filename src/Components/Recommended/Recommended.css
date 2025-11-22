@@ -22,3 +22,8 @@
     font-size: 13px; /* Sets the font size for the video title */
     margin-bottom: 5px; /* Adds margin below the video title */
 }
+@media (max-width:900px){
+    .recommended{
+       flex-basis : 100%; 
+    }
+}
